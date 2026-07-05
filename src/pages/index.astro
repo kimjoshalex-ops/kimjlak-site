@@ -16,85 +16,88 @@
       <a href="/contact" style="color:white; text-decoration:none; opacity:0.5;">Contact</a>
     </nav>
 
+    <!-- MAIN WRAPPER (global content width system) -->
     <main style="max-width:900px; margin:auto; padding:60px 22px 80px;">
 
-      <header style="margin-bottom:50px;">
+      <!-- NAME (anchor of layout system) -->
+      <header style="margin-bottom:60px;">
         <h1 style="font-size:clamp(30px, 6.5vw, 44px); margin:0; font-weight:500;">
           joshua lak kim
         </h1>
       </header>
 
-      <section>
+      <!-- PROJECTS (aligned to name width system) -->
+      <section style="max-width:650px; margin:0 auto;">
 
-  <h2 style="font-size:12px; letter-spacing:1px; opacity:0.6; margin-bottom:22px;">
-    Projects
-  </h2>
+        <h2 style="font-size:12px; letter-spacing:1px; opacity:0.6; margin-bottom:22px;">
+          Projects
+        </h2>
 
-  <div style="
-    display:flex;
-    flex-direction:column;
-    gap:40px;
-    font-size:clamp(15px, 4.2vw, 18px);
-    line-height:1.6;
-  ">
+        <div style="
+          display:flex;
+          flex-direction:column;
+          gap:56px;
+          font-size:clamp(15px, 4.2vw, 18px);
+          line-height:1.6;
+        ">
 
-    <!-- PROJECT 1 -->
-    <div>
+          <!-- PROJECT BLOCK (reusable pattern) -->
+          <div>
 
-      <!-- Poster image placeholder -->
-      <div style="
-        width:100%;
-        aspect-ratio: 2 / 3;
-        background:#1a1a1a;
-        margin-bottom:18px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        font-size:12px;
-        opacity:0.6;
-      ">
-        (insert poster image)
-      </div>
+            <!-- Poster (never exceeds name width) -->
+            <img
+              src="/images/entanglement.jpg"
+              alt="Entanglement poster"
+              style="
+                width:100%;
+                max-width:650px;
+                height:auto;
+                display:block;
+                margin-bottom:18px;
+              "
+            />
 
-      <strong>Entanglement (2025)</strong><br/>
-      <span style="opacity:0.7;">a graphic novel</span><br/><br/>
+            <strong>Entanglement (2025)</strong><br/>
+            <span style="opacity:0.7;">a graphic novel</span><br/><br/>
 
-      written by Joshua Lak Kim &amp; Ciara Ni Chuirc<br/>
-      art by Max Von Fafner<br/>
-      AWA Studios / Futurific Studios
+            written by Joshua Lak Kim &amp; Ciara Ni Chuirc<br/>
+            art by Max Von Fafner<br/>
+            AWA Studios / Futurific Studios
 
-    </div>
+          </div>
 
-    <!-- PROJECT 2 (template for future) -->
-    <div>
+          <!-- TEMPLATE PROJECT (future use) -->
+          <div>
 
-      <div style="
-        width:100%;
-        aspect-ratio: 2 / 3;
-        background:#1a1a1a;
-        margin-bottom:18px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        font-size:12px;
-        opacity:0.6;
-      ">
-        (insert poster image)
-      </div>
+            <div style="
+              width:100%;
+              max-width:650px;
+              aspect-ratio: 2 / 3;
+              background:#1a1a1a;
+              display:flex;
+              align-items:center;
+              justify-content:center;
+              font-size:12px;
+              opacity:0.6;
+              margin-bottom:18px;
+            ">
+              (insert poster image)
+            </div>
 
-      <strong>Project Title</strong><br/>
-      <span style="opacity:0.7;">Short Film / Play / Script</span><br/><br/>
+            <strong>Project Title</strong><br/>
+            <span style="opacity:0.7;">Short Film / Play / Script</span><br/><br/>
 
-      written by You<br/>
-      directed by You<br/>
-      Production Company / Festival
+            written by You<br/>
+            directed by You<br/>
+            Production Company / Festival
 
-    </div>
+          </div>
 
-  </div>
+        </div>
 
-</section>
+      </section>
 
     </main>
+
   </body>
 </html>
